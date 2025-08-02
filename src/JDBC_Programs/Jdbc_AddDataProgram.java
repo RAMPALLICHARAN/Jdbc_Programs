@@ -6,9 +6,9 @@ import java.sql.*;
 public class Jdbc_AddDataProgram {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/Students";
+        String url = "jdbc:mysql://localhost:3306/School";
         String username = "root";
-        String password = "Charan@99666";
+        String password = "password";
         String tableName = "Students";
 
         try {

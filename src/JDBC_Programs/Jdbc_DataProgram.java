@@ -7,7 +7,7 @@ public class Jdbc_DataProgram {
     public static void main(String[] args) {
     	String url = "jdbc:mysql://localhost:3306/Students";
         String username = "root";
-        String password = "Charan@99666";
+        String password = "password";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
